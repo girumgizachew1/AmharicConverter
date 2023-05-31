@@ -15,7 +15,7 @@ function Navbar() {
 
 
   return (
-    <div className="flex items-center justify-between h-16 px-40">
+    <div className={`flex items-center justify-between h-16 px-40 ${theme === true ? 'bg-zinc-900' : 'bg-zinc-50 ' }`}>
       <div className='flex' >
         <Link href="/">
           <h1 className=" text-lg font-semibold">Amharic-converter</h1>
